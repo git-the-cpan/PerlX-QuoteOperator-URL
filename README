@@ -5,7 +5,7 @@ NAME
 
 VERSION
 
-    Version 1.01
+    Version 1.02
 
 SYNOPSIS
 
@@ -15,7 +15,11 @@ SYNOPSIS
 
 DESCRIPTION
 
-    For more info see PerlX::QuoteOperator::URL.
+    This module provides a Quote-like operator which returns a HTTP request
+    using the LWP::Simple module.
+
+    Please see PerlX::QuoteOperator for more detail on Quote-like
+    operators.
 
     For now here is another example:
 
@@ -59,7 +63,7 @@ SEE ALSO
 
 CONTRIBUTORS
 
-    BrianRossmajer (https://github.com/BrianRossmajer) for
+    Brian Rossmajer (https://github.com/BrianRossmajer) for
     Directory::Scratch removal patch at 1.01
 
 AUTHOR
@@ -68,11 +72,8 @@ AUTHOR
 
 BUGS
 
-    Please report any bugs or feature requests to bug-perlx-quoteoperator
-    at rt.cpan.org, or through the web interface at
-    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=PerlX-QuoteOperator-URL.
-    I will be notified, and then you'll automatically be notified of
-    progress on your bug as I make changes.
+    Please report any bugs or feature requests to
+    https://github.com/draegtun/PerlX-QuoteOperator-URL/issues
 
 SUPPORT
 
@@ -82,7 +83,7 @@ SUPPORT
 
     You can also look for information at:
 
-      * Github issues for bugs/sugs
+      * Github issues and pull requests
 
       https://github.com/draegtun/PerlX-QuoteOperator-URL/issues
 

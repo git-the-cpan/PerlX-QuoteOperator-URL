@@ -5,7 +5,7 @@ author:
 build_requires:
   File::Temp: '0'
   Test::More: '0'
-  URI::File: '0'
+  URI::file: '0'
 configure_requires:
   Module::Build::Tiny: '0.039'
 dynamic_config: 0
@@ -31,7 +31,7 @@ resources:
   bugtracker: https://github.com/draegtun/PerlX-QuoteOperator-URL/issues
   homepage: https://github.com/draegtun/PerlX-QuoteOperator-URL
   repository: https://github.com/draegtun/PerlX-QuoteOperator-URL.git
-version: '1.01'
+version: '1.02'
 x_contributors:
   - 'Barry Walsh <draegtun@googlemail.com>'
   - 'Brian Rossmajer <BrianRossmajer@users.noreply.github.com>'
